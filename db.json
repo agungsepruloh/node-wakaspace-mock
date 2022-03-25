@@ -1,16 +1,146 @@
 {
-  "posts":[
+  "endpoints": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "races",
+      "address": "http://192.168.0.204:3000/races"
+    },
+    {
+      "name": "types",
+      "address": "http://192.168.0.204:3000/types"
+    },
+    {
+      "name": "rarities",
+      "address": "http://192.168.0.204:3000/rarities"
+    },
+    {
+      "name": "items",
+      "address": "http://192.168.0.204:3000/items"
     }
   ],
-  "comments" : [
+  "races":[
+    {
+      "id" : 0,
+      "name": "Wakazedius"
+    },
+    {
+      "id" : 1,
+      "name": "Wakajeffroy"
+    },
+    {
+      "id" : 2,
+      "name": "Wakakremes"
+    },
+    {
+      "id" : 3,
+      "name": "Wakamuscan"
+    },
+    {
+      "id" : 4,
+      "name": "Wakahybrid"
+    },
+    {
+      "id" : 5,
+      "name": "Wakaboise"
+    }
+  ],
+  "types" : [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Assasin"
+    },
+    {
+      "id": 1,
+      "name": "Magic"
+    },
+    {
+      "id": 2,
+      "name": "Warrior"
+    }
+  ],
+  "rarities": [
+    {
+      "id": 0,
+      "name": "Common"
+    },
+    {
+      "id": 1,
+      "name": "Uncommon"
+    },
+    {
+      "id": 2,
+      "name": "Rare"
+    },
+    {
+      "id": 3,
+      "name": "Legendary"
+    }
+  ],
+  "items": [
+    {
+      "id": 0,
+      "code": 2378,
+      "name": "Zedius",
+      "price": 1.100,
+      "currency": "$",
+      "type": {
+        "id": "0",
+        "name": "Magic"
+      }
+    },
+    {
+      "id": 1,
+      "code": 4352,
+      "name": "Butchery",
+      "price": 1.100,
+      "currency": "$",
+      "type": {
+        "id": "1",
+        "name": "Assasins"
+      }
+    },
+    {
+      "id": 2,
+      "code": 2154,
+      "name": "Krenes",
+      "price": 1.100,
+      "currency": "$",
+      "type": {
+        "id": "1",
+        "name": "Assasins"
+      }
+    },
+    {
+      "id": 3,
+      "code": 4575,
+      "name": "True Provider",
+      "price": 2.200,
+      "currency": "$",
+      "type": {
+        "id": "3",
+        "name": "Magic"
+      }
+    },
+    {
+      "id": 4,
+      "code": 7548,
+      "name": "Jeff",
+      "price": 1.100,
+      "currency": "$",
+      "type": {
+        "id": "3",
+        "name": "Warrior"
+      }
+    },
+    {
+      "id": 5,
+      "code": 5454,
+      "name": "CLear Bloods",
+      "price": 2.200,
+      "currency": "$",
+      "type": {
+        "id": "3",
+        "name": "Warrior"
+      }
     }
   ]
 }
